@@ -1,1 +1,7 @@
-.AppChat { background-color: teal; }
+.AppChat {
+  width: 62px;
+  height: 62px;
+  
+  background-color: tomato;
+  border-radius: 50%;
+}

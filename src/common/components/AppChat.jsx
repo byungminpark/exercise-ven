@@ -2,9 +2,7 @@ import './AppChat.css';
 
 const AppChat = () => {
   return (
-    <aside className="AppChat">
-      AppChat
-    </aside>
+    <aside className="AppChat" />
   );
 };
 
