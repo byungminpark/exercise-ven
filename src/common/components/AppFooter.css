@@ -1,1 +1,30 @@
-.AppFooter { background-color: grey; }
+.AppFooter {
+  font-size: 0.94rem;
+  background-color: grey;
+}
+
+/*  */
+.AppFooter-policy {
+
+}
+
+/*  */
+.AppFooter-copyright {
+  margin: 16px 0;
+}
+
+/*  */
+.AppFooter-address {
+  
+}
+
+/*  */
+.AppFooter-address > dl > dt,
+.AppFooter-address > dl > dd {
+  display: inline-block;
+}
+
+.AppFooter-address > dl > dt::after {
+  content: ':';
+  padding: 0 0.2em;
+}
