@@ -1,7 +1,9 @@
 .Reservation {
-  
+  display: flex;
 }
 
-.Reservation-form {
+.Reservation > .ReservationForm {
   border: 1px solid #000;
 }
+
+.Reservation > iframe {}
