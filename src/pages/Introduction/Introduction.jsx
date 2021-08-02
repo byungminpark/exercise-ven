@@ -1,8 +1,8 @@
-import 'Introduction.css';
+import './Introduction.css';
 
 const Introduction = () => {
   return (
-    <section className="Introduction"></section>
+    <section className="Introduction">Introduction</section>
   );
 };
 

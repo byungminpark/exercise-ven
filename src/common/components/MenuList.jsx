@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './MenuList.css';
 import MENUS from '../constants/MENUS.json';
 
@@ -8,7 +10,9 @@ const MenuList = () => {
     <ul className="MenuList">
       {MENUS_NAMES.map(i => {
         return (
-          <li key={i} className="MenuList-item">{i}</li>
+          <Link to={MENUS[i] === 'home' ? '/' : MENUS[i]}>
+            <li key={i} className="MenuList-item">{i}</li>
+          </Link>
         );
       })}
     </ul>

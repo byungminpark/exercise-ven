@@ -1,8 +1,8 @@
-import 'Home.css';
+import './Home.css';
 
 const Home = () => {
   return (
-    <section className="Home"></section>
+    <section className="Home">Home</section>
   );
 };
 

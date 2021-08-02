@@ -1,8 +1,8 @@
-import 'Reservation.css';
+import './Reservation.css';
 
 const Reservation = () => {
   return (
-    <section className="Reservation"></section>
+    <section className="Reservation">Reservation</section>
   );
 };
 
