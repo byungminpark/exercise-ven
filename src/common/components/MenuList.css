@@ -1,7 +1,9 @@
 .MenuList {
-
+  display: flex;
+  justify-content: flex-end;
+  border: 1px dashed red;
 }
 
 .MenuList-item {
-
+  border: 1px solid green;
 }
